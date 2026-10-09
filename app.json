@@ -1,0 +1,3 @@
+{ "expo": { "name": "Next Level Gaming", "slug": "next-level-gaming", "version": "1.0.0", "orientation": "portrait",
+  "userInterfaceStyle": "dark", "icon": "./assets/logo.jpg", "splash": { "image": "./assets/logo.jpg", "backgroundColor": "#121212" },
+  "ios": { "supportsTablet": true }, "android": { "adaptiveIcon": { "foregroundImage": "./assets/logo.jpg", "backgroundColor": "#121212" } } } }
