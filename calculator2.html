@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Next Level Gaming &amp; Esports Arena, Johannesburg: gaming packages, esports tournaments, parties and corporate events.">
+<title>Calculate Fees | Next Level Gaming &amp; Esports Arena</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="calculator">
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Next Level Gaming home"><img src="img/logo.jpg" alt="Next Level Gaming &amp; Esports Arena logo"><span>NEXT LEVEL <span class="accent-p">ARENA</span></span></a>
+    <button class="menu-btn" aria-label="Toggle menu">&#9776;</button>
+    <nav aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="packages.html">Packages</a></li><li><a href="calculator.html" class="active" aria-current="page">Calculate Fees</a></li><li><a href="contact.html">Contact Us</a></li></ul></nav>
+  </div>
+</header>
+<main>
+
+<div class="container page-title"><h1>Calculate <span class="accent">Fees</span></h1><p class="muted">Select your packages and see your total, including discount and VAT, instantly.</p></div>
+<section><div class="container calc">
+ <div><h2 class="accent">Select Your Packages</h2><div id="items" style="margin-top:1rem"></div>
+  <p class="muted" style="font-size:.85rem">Maximum 10 of each. Discount is based on the total number of bookings selected.</p></div>
+ <aside class="summary" aria-live="polite"><h3 class="accent-p" style="color:var(--purple)">DISCOUNT RATES</h3>
+  <div class="tier-row" id="tierRow"></div>
+  <div class="line"><span class="muted">Bookings selected</span><span id="sCount">0</span></div>
+  <div class="line"><span class="muted">Subtotal</span><span id="sSub">R0.00</span></div>
+  <div class="line disc"><span id="sDiscLabel">Multi-Booking Discount (0%)</span><span id="sDisc">- R0.00</span></div>
+  <div class="line"><span class="muted">VAT (15%)</span><span id="sVat">R0.00</span></div>
+  <div class="line total"><span>TOTAL DUE</span><b id="sTotal">R0.00</b></div>
+  <p style="margin-top:1rem"><button class="btn" id="quoteBtn" type="button" style="width:100%">Generate Quotation</button></p>
+  <div class="quote" id="quoteBox"></div></aside>
+</div></section>
+</main>
+<footer>
+  <div class="container foot">
+    <div>&copy; <span data-year>2026</span> Next Level Gaming &amp; Esports Arena. All rights reserved.</div>
+    <div>123 Esports Avenue, Sandton, Johannesburg | +27 11 555 9876 | arena@nextlevelgaming.co.za</div>
+  </div>
+</footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
